@@ -1,0 +1,24 @@
+.expAmt-right-align {
+  text-align: right;
+}
+
+input.expAmt-right-align::-webkit-outer-spin-button,
+input.expAmt-right-align::-webkit-inner-spin-button {
+  display: none;
+}
+
+input.expAmt-right-align {
+  -moz-appearance: textfield;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h1 {
+  margin: 2rem 0;
+}
+
+mat-form-field:not(:last-of-type) {
+  margin-right: 1.5rem;
+}

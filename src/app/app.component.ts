@@ -1,10 +1,4 @@
 import { Component } from '@angular/core';
-
-interface Expense {
-  name: string;
-  date: string;
-  amt: string;
-}
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

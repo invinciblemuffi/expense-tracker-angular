@@ -15,6 +15,9 @@
     <input matInput type="date" placeholder="date of expense" [(ngModel)]="expDate" />
   </mat-form-field>
 
-  <button type="button" (click)="getExpense()">Add Expense</button>
+  <div>
+    <button type="button" name="addExpense" (click)="getExpense()">Add Expense</button>
+  </div>
 </section>
-<expenseview-root></expenseview-root>
+<!-- <expenseview-root [expName]=expName [expAmt]=expAmt [expDate]=expDate [newExpObj]=newExpObj></expenseview-root> -->
+<expenseview-root [newExpObj]=newExpObj></expenseview-root>

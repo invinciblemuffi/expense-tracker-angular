@@ -22,3 +22,17 @@ h1 {
 mat-form-field:not(:last-of-type) {
   margin-right: 1.5rem;
 }
+
+button[name="addExpense"] {
+  width: 15%;
+  padding: 1rem;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  background: none;
+  color: #333;
+  cursor: pointer;
+}
+
+button[name="addExpense"]:hover {
+  border: 1px solid #333;
+}
